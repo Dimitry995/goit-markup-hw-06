@@ -179,8 +179,7 @@ color:var(--secondary-color);
 /*index.html*/
 
 .hero  {
-	background-color:#2F303A;
-	background-image: url(./18.jpg);
+	background-image: url(./images/18.jpg);
 	padding-top:200px;
 	padding-bottom: 200px;
 	position: relative;
