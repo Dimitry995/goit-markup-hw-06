@@ -268,6 +268,8 @@ color:var(--secondary-color);
 	height:40px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+	margin-top:4px;
+margin-bottom:10px;
 	
 }
 #area.icon {
@@ -282,6 +284,12 @@ border: 1px solid var(--four-color);
 #area:hover .icon-modal {
 	fill:var(--four-color);
 }
+#area:focus {
+border: 1px solid var(--four-color);
+}
+#area:focus .icon-modal {
+	fill:var(--four-color);
+}
 #coment {
 	width: 445px;
 	height:120px;
@@ -290,7 +298,14 @@ border: 1px solid var(--four-color);
 	display:block;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-
+	position:relative;
+margin-top:4px;
+}
+#coment::placeholder {
+position: absolute;
+top:0;
+left:0;
+padding:12px 16px;
 }
 #X{
 	width: 30px;
