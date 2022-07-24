@@ -46,6 +46,7 @@ img {
 	height:auto;
 	max-width:100%;
 }
+/*index.html*/
 /*--HEADER--START--*/
 .header {
 	display: flex;
@@ -174,7 +175,6 @@ color:var(--secondary-color);
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
-/*index.html*/
 
 .hero  {
 	background-color:#2F303A;
@@ -366,6 +366,8 @@ margin-left:165px;
     margin-right: 50px;
     margin-bottom: 20px;
 }
+/*--MAIN--HERO-End--*/
+/*--MAIN-CONTENT-Start--*/
 .info h2 {
 	visibility:hidden;
 }
@@ -629,6 +631,7 @@ margin-bottom:50px;
 .clients-item:hover  {
 	border: 1px solid var(--four-color);
 }
+/*MAin-COntent-end--*/
 /*index.html-END-*/
 /*portfolio.html*/
 .filters {
