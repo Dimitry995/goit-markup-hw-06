@@ -9,7 +9,7 @@
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-			<link rel="stylesheet" href="./css/styles.css"/>
+			<link rel="stylesheet" href="./css/style.css"/>
     </head>
     <body>
     <header class="menu">
@@ -17,7 +17,7 @@
 			<nav class="navigation">
 				<a class="logo" lang="en" href="./index.html">Web<span lang="en" class="logo-color-black">Studio</span></a>
 		    <ul class="list">
-			    <li class="item" style="margin-top: 32px;"><a class="item-link current" href="./index.html">Студiя</a></li>
+			    <li class="item"><a class="item-link current" href="./index.html">Студiя</a></li>
 <li class="item"><a class="item-link" href="./portfolio.html">Портфолiо</a></li>
 <li class="item"><a class="item-link" href="#Kontakti">Контакти</a></li>
 			    </ul>
@@ -37,23 +37,23 @@
 <div class="modal">
 	<button id="X" data-modal-close><svg width='30px' height='30px' class="modal-icon"><use class="modal-use"  href="./images/symbol-defs.svg#icon-close"></use></svg></button>
 <form id="contact" action="mail.html" method="post">
-	<h2 class="title" style="margin-left: 45px;">Залиште свої дані Ми Вам передзвонимо</h2>
+	<p class="title">Залиште свої дані Ми Вам передзвонимо</p>
 	<div id="form">
 	<label class="name">Імя</label>
-	<input type="text" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 110px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-person"></use></svg></input>
+	<input type="text" name="name" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 110px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-person"></use></svg></input>
 </div>
 <div id="form">
 	<label class="name">Телефон</label>
-	<input type="text" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 180px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-phone-2"></use></svg></input>
+	<input type="text" name="tel" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 180px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-phone-2"></use></svg></input>
 </div>
 <div id="form">
 	<label class="name">Пошта</label>
-	<input type="text" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 250px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-mail-2"></use></svg> </input>
+	<input type="text" name="post" id="area"><svg width='16' height='12' class="modal-icon" style="position: absolute;top: 250px;left: 60px;"><use class="icon-modal" href="./images/symbol-defs.svg#icon-mail-2"></use></svg> </input>
 </div>
 	<label class="name">Коментарі</label>
-	<input type="text" placeholder="Введіть текс" id="coment"/>
-	<input class="checkbox-button" type="checkbox"></input><p class="checkbox-paragraf">Погоджуєтесь з розселюванням та приймаєте<a class="dogovir" href="#dogovir">Умови угоди</a></p>
-	<button id="Y">Send</button>
+	<textarea type="text" placeholder="Введіть текс" id="coment"></textarea>
+	<input class="checkbox visually-hidden checkbox-button" type="checkbox"></input><p class="checkbox-paragraf">Погоджуєтесь з розселюванням та приймаєте<a class="dogovir" href="#dogovir">Умови угоди</a></p>
+	<button type="submit" id="Y">Send</button>
 
 </form>
 </div>
@@ -250,9 +250,9 @@
 		</ul>
 	</div>
 		<div class="right-bottom">
-		<h3>Підписаться на розсилку</h3>
+		<p class="right-bottom-h">Підписаться на розсилку</p>
 		<form id="telegram">
-		<input type="text" placeholder="E-mail" id="line"/><button class="send">Відправити</button><svg class="footer-icon" width='20' height='20'><use href="./images/symbol-defs.svg#icon-send"></use></svg>
+		<input type="text" placeholder="E-mail" id="line"/><button type="submit" class="send">Відправити</button><svg class="footer-icon" width='20' height='20'><use href="./images/symbol-defs.svg#icon-send"></use></svg>
 		</form>
 		</div>
 		</div>
@@ -260,4 +260,5 @@
 		<script src="./js/modal.js"></script>
     </body>.
 </html>
+
 
