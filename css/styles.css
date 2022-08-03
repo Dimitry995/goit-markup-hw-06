@@ -758,6 +758,9 @@ margin-bottom:50px;
 .clients-item:hover  {
 	border: 1px solid var(--four-color);
 }
+.clients-item:last-child {
+	margin-right:0;
+}
 /*index.html-END-*/
 /*portfolio.html*/
 .filters {
