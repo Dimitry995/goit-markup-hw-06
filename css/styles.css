@@ -633,12 +633,9 @@ border-radius: 0px 0px 4px 4px;
 	display: flex;
 }
 .social-list {
-	height:90px;
-	width:270px;
-	padding-top: 28px;
-	padding-left: 50px;
-	width:220px;
-	display:inline-block;
+	width: 220px;
+    justify-content: space-between;
+    display: flex;
 
 }
 .social-item:first-child {
@@ -647,21 +644,17 @@ margin-left:0;
 .social-item  {
 	height:44px;
 	width:44px;
-	display:inline-block;
-	margin-left:10px;
-	display: inline;
+	display:flex;
 	flex-direction: row;
-	width:100%;
-	height:90px;
 	justify-content: center;
 	align-items: center;
 }
 .social-link  {
-  height:100%;
-  width:100%;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+      height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .social-link:hover {
 	width:44px;
