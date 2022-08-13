@@ -175,7 +175,6 @@ align-items: center;
 }
 .top-icon {
 	margin-right:10px;
-	fill:var(--secondary-color);
 }
 .current {
 	color:var(--four-color);
