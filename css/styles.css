@@ -686,6 +686,12 @@ margin-left:0;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-link:focus ~ .social-icon {
+	fill:var(--third-color);
+	transition-property: fill;
+   	transition-duration: 250ms;
+    	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social svg:focus {
 	background-color: #2196F3;
 }
