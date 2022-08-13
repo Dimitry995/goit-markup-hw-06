@@ -454,6 +454,7 @@ color: var(--third-color);
     height: 15px;
     bottom: 113.5px;
     left: 52px;
+	outline:none;
 
 }
 .checkbox-button:checked .checkbox-button {
