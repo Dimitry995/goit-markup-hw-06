@@ -335,6 +335,7 @@ cursor: pointer;
 #area:focus {
 	border: 1px solid var(--four-color);
 	transition: border-color 250ms var(--four-color);
+	outline:none;
 	}
 #form {
 	transition-property: background-color;
@@ -378,6 +379,7 @@ padding: 12px 16px;
 }
 #coment:focus {
 	border: 1px solid var(--four-color);
+	outline:none;
 
 }
 #coment::placeholder {
