@@ -778,6 +778,7 @@ margin-bottom:50px;
 }
 .clients-link:focus .clients-item {
 	border-color:var(--four-color);
+	outline:none;
 }
 .clients-item:last-child {
 	margin-right:0;
