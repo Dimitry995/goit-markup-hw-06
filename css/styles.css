@@ -166,7 +166,7 @@ align-items: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.right-link:focus .top-icon {
+.right-link:focus ~ .top-icon {
 	fill:var(--four-color);
 	transition-property: fill;
     transition-duration: 250ms;
