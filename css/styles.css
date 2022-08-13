@@ -320,7 +320,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	position:absolute;
 }
 .icon-modal {
-	fill:var(--main-color);
 	transition-property: fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
