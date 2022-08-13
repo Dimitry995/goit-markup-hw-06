@@ -870,6 +870,17 @@ margin-bottom:0px;
 .content-link {
 	width: 370px;
 }
+.contact-link {
+display:block;	
+}
+.contact-link:focus {
+	box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+}
+.contact-link:focus ~ .overlay {
+		transform:translateY(-100%);
+		visibility: visible;
+	outline:none;
+	}
 .content-img {
 	position: relative;
 }
@@ -901,9 +912,6 @@ padding-top:20px;
 }
 .content-item:hover .content-block {
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);	
-}
-.content-item:focus .content-block {
-	    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 .overlay {
 	position:absolute;
