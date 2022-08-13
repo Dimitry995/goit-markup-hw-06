@@ -441,12 +441,11 @@ color: var(--third-color);
 	position: absolute;
 }
 .checkbox-button {
-top: 30px;
     position: absolute;
     width: 16px;
     height: 15px;
     bottom: 113.5px;
-    left: 43px;
+    left: 52px;
 
 }
 .checkbox-button:checked .checkbox-button {
@@ -699,7 +698,7 @@ margin-left:0;
    	transition-duration: 250ms;
     	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-item:focus .social-item{
+.social-item:focus .social-item {
 	border-radius: 50%;
 	background-color: var(--four-color);
 	transition-property: background-color;
