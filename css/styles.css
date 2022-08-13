@@ -353,12 +353,14 @@ cursor: pointer;
 	transition-property: fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	outline:none;
 }
 #area:focus ~ .icon-modal {
 	fill:var(--four-color);
 	transition-property:fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	outline:none;
 }
 #coment {
 	width: 445px;
