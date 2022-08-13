@@ -144,6 +144,7 @@ align-items: center;
 	transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	fill:var(--four-color);
 }
 .right-link:hover {
 	color:var(--four-color);
@@ -289,7 +290,6 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: var(--main-color);
 }
 .name {
@@ -678,6 +678,13 @@ margin-left:0;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social svg:focus {
+	background-color: #2196F3;
+}
+
+.social-icon {
+	fill:var(--eight-color);
+}
 .social-link:focus {
 	width:44px;
 	height:44px;
@@ -686,19 +693,13 @@ margin-left:0;
 	transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	fill:var(--four-color);
 }
 .social-link:focus ~ .social-icon {
 	fill:var(--third-color);
 	transition-property: fill;
    	transition-duration: 250ms;
     	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social svg:focus {
-	background-color: #2196F3;
-}
-
-.social-icon {
-	fill:var(--eight-color);
 }
 .social-item:hover{
 	border-radius: 50%;
