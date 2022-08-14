@@ -900,7 +900,7 @@ display:block;
 .contact-link:focus ~ .overlay {
 		transform:translateY(-100%);
 		visibility: visible;
-	outline:none;
+		outline:none;
 	}
 .content-img {
 	position: relative;
