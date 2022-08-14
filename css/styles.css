@@ -431,12 +431,13 @@ transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-a.dogovir  {
+.dogovir  {
 	float:left;
 	display:contents;
 	line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--four-color);
+    	letter-spacing: 0.03em;
+    	color: var(--four-color);
+	text-decoration: underline;
 	
 }
 #Y {
