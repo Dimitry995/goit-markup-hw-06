@@ -433,8 +433,6 @@ transition-property: fill;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .dogovir  {
-	float:left;
-	display:contents;
 	line-height: 0.6;
     	letter-spacing: 0.03em;
     	color: var(--four-color);
