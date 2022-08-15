@@ -461,7 +461,7 @@ color: var(--third-color);
 }
 .checkbox-button {
     position: absolute;
-    width: 16px;
+    width: 340px;
     height: 15px;
     bottom: 113.5px;
     left: 52px;
