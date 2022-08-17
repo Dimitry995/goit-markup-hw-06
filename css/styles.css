@@ -464,7 +464,7 @@ color: var(--third-color);
 }
 .checkbox-button {
    position: absolute;
-    width: 340px;
+    width: 16px;
     height: 15px;
     bottom: 113.5px;
     left: 52px;
@@ -497,13 +497,10 @@ color: var(--third-color);
 		transition: border-color 250ms var(--timing-fn);
 }
 .checkbox-paragraf {
-	float: right;
-    margin-top: 25px;
-    margin-bottom: 20px;
+margin-top: 25px;
+margin-bottom: 20px;
 line-height:0.6;
-
 letter-spacing: 0.03em;
-
 color: var(--secondary-color);
 }
 .info-title-h2 {
