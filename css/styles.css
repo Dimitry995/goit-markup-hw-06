@@ -373,6 +373,10 @@ cursor: pointer;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	outline:none;
 }
+.form-footer {
+padding-top:0px;
+padding-bottom:0px;
+}
 #coment {
 	width: 445px;
 	height:120px;
