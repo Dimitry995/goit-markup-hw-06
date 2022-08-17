@@ -350,6 +350,8 @@ cursor: pointer;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	margin-bottom:10px;
+	padding-top:0px;
+	padding-bottom:0px;
 }
 #form:hover .modal-icon {
 	fill:var(--four-color);
