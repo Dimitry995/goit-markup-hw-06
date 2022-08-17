@@ -463,12 +463,11 @@ color: var(--third-color);
 	appearance: none;
 }
 .checkbox-button {
-   position: absolute;
+    position: absolute;
     width: 16px;
     height: 15px;
-    bottom: 113.5px;
+    bottom: 115px;
     left: 52px;
-   outline: none;
 
 }
 .checkbox-button:checked .checkbox-button {
