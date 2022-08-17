@@ -706,7 +706,7 @@ margin-left:0;
 	transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	fill:var(--four-color);
+	fill:var(--third-color);
 }
 .social-link:focus ~ .social-icon {
 	fill:var(--third-color);
