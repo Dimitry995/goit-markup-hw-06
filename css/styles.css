@@ -468,7 +468,7 @@ color: var(--third-color);
     width: 16px;
     height: 15px;
     bottom: 115px;
-    left: 55px;
+    left: 45px;
 }
 .checkbox-button:checked .checkbox-button {
 	border:none;
