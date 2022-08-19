@@ -495,13 +495,21 @@ color: var(--third-color);
 		transition: border-color 250ms var(--timing-fn);
 }
 .checkbox-paragraf {
-margin-left: 15px;
+margin-left: 5px;
 margin-top: 25px;
 margin-bottom: 20px;
 line-height:0.6;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
 }
+.checkbox-paragraf:checked + .checkbox-paragraf::before {
+	border-color: transparent;
+	background-color: var(--four-color);
+	background-position: center;
+	background-size: contain;
+	background-origin: border-box;
+	background-image: url('../images/nike.svg');
+  }
 .info-title-h2 {
 	visibility:hidden;
 }
