@@ -465,7 +465,7 @@ color: var(--third-color);
 }
 .checkbox-button {
     position: absolute;
-    width: 16px;
+    width: 345px;
     height: 15px;
     bottom: 115px;
     left: 45px;
@@ -503,20 +503,6 @@ line-height:0.6;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
 }
-.checkbox-area {
-position:absolute;
-	width:325px;
-	    bottom: 115px;
-    left:55px;
-}
-.checkbox-area:checked + .checkbox-paragraf::before {
-	border-color: transparent;
-	background-color: var(--four-color);
-	background-position: center;
-	background-size: contain;
-	background-origin: border-box;
-	background-image: url('../images/nike.svg');
-  }
 .info-title-h2 {
 	visibility:hidden;
 }
