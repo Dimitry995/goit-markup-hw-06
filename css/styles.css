@@ -309,7 +309,7 @@ color: var(--main-color);
 	letter-spacing: 0.01em;
 	color: var(--secondary-color);
 }
-#area1,area2,area3 {
+#area1 {
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
@@ -321,9 +321,35 @@ color: var(--main-color);
 border-radius: 4px;
 margin-top:4px;
 padding: 12px 42px;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-	
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);	
+}
+#area2 {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin:0 auto;
+	width: 445px;
+	position:relative;
+	height:40px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-top:4px;
+padding: 12px 42px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);	
+}
+#area3 {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin:0 auto;
+	width: 445px;
+	position:relative;
+	height:40px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-top:4px;
+padding: 12px 42px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);	
 }
 #area.icon {
 	position:absolute;
@@ -334,18 +360,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-#area1,area2,area3:hover {
-border: 1px solid var(--four-color);
-transition: border-color 250ms var(--four-color);
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-cursor: pointer;
-}
-#area1,area2,area3:focus {
-	border: 1px solid var(--four-color);
-	transition: border-color 250ms var(--four-color);
-	outline:none;
-	}
-#form1,form2,form3 {
+#form1 {
 	transition-property: background-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -353,6 +368,55 @@ cursor: pointer;
 	padding-top:0px;
 	padding-bottom:0px;
 }
+#form2 {
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	margin-bottom:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#form3 {
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	margin-bottom:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#area1:hover {
+border: 1px solid var(--four-color);
+transition: border-color 250ms var(--four-color);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+}
+#area2:hover {
+border: 1px solid var(--four-color);
+transition: border-color 250ms var(--four-color);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+}
+#area3:hover {
+border: 1px solid var(--four-color);
+transition: border-color 250ms var(--four-color);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+}
+#area1:focus {
+	border: 1px solid var(--four-color);
+	transition: border-color 250ms var(--four-color);
+	outline:none;
+	}
+#area2:focus {
+	border: 1px solid var(--four-color);
+	transition: border-color 250ms var(--four-color);
+	outline:none;
+	}
+#area3:focus {
+	border: 1px solid var(--four-color);
+	transition: border-color 250ms var(--four-color);
+	outline:none;
+	}
 #form1:hover .modal-icon {
 	fill:var(--four-color);
 }
@@ -373,10 +437,10 @@ cursor: pointer;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	outline:none;
 }
-#form1:hover .modal-icon {
+#form2:hover .modal-icon {
 	fill:var(--four-color);
 }
-#form1:hover .icon-modal {
+#form2:hover .icon-modal {
 	fill:var(--four-color);
 }
 #area2:focus ~ .modal-icon {
@@ -393,7 +457,7 @@ cursor: pointer;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	outline:none;
 }
-#form2:hover .modal-icon {
+#form3:hover .modal-icon {
 	fill:var(--four-color);
 }
 #form3:hover .icon-modal {
