@@ -1,3 +1,13 @@
+span.tooltip::before {
+ content: attr(data-tooltip);
+ position: absolute;
+ top: 25px;
+ font-size: 15px;
+ display: none;
+}
+span.tooltip:hover::before {
+ display: inline-block;
+}
 :root {
 	--main-color:#212121;
 	--secondary-color:#757575;
